@@ -10,3 +10,10 @@ POST http://localhost:8081/api/messages/actions/send
 Content-Type: application/json
 
 "message~~!!⭐️"
+
+
+###
+# Task1 요청
+# curl -X POST "http://localhost:8081/api/work-queue/actions/send?workQueueMessage=Task1&duration=2000"
+# curl -X POST "http://localhost:8081/api/work-queue/actions/send?workQueueMessage=Task2&duration=4000"
+# curl -X POST "http://localhost:8081/api/work-queue/actions/send?workQueueMessage=Task3&duration=5000"
