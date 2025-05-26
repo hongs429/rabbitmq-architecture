@@ -8,7 +8,8 @@ import org.springframework.context.annotation.ComponentScans;
 
 
 @SpringBootApplication
-@ComponentScan(basePackages = "com.rabbitmq.architecture.step1")
+//@ComponentScan(basePackages = "com.rabbitmq.architecture.step1")
+@ComponentScan(basePackages = "com.rabbitmq.architecture.step2")
 public class RabbitmqArchitectureApplication {
 
     public static void main(String[] args) {
